@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project 7</title>
+	<link rel="stylesheet" 
+		type="text/css" 
+		href="project_7.css">
+
+	<script type="text/javascript" src="project_7.js">
+	</script>
+</head>
+
+<body>
+	<h1>There are many events among them some are done here</h1>
+
+	<div id="iam_you">
+		<button onclick="colorChange()" value="change">OnClick Event</button>
+		<span id="hello">I am span!</span>
+	</div>
+</br>
+</br>
+
+	<p> Enter your name
+		<input type="text"
+		 id="name"
+		 value="Name please and Hit Enter" 
+		 onchange="your_name()">
+	</p>
+</br>
+</br>
+<div class="UO">
+	<div id="overout"
+		onmouseover="mouse_over(this)"
+		onmouseout="mouse_out(this)" 
+		value="overOut">
+		<span id="overout_msg">Mouse Over and Out</span>
+	</div>
+</br>
+</br>
+
+	<div id="updown"
+		onmouseup="mouse_up(this)" 
+		onmousedown="mouse_down(this)"
+		value="upDown">
+			<span id="updown_msg">Mouse Up and Down</span>
+	</div>
+</div>
+</br>
+
+<div id="focus_blur">
+	<h3> Write about Yourself </h3>
+	<input type="text" name="onfocus_info"
+	id="of"
+	onfocus="onFocus()"
+	onblur="onBlur()"
+	value="Write here....">
+</div>
+
+</body>
+</html>
